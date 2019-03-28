@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var data = require('../database/data');
+
 
 
 app.use(bodyParser.json());
