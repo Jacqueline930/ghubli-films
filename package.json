@@ -1,0 +1,20 @@
+{
+  "name": "ghubli-films",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1n",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacqueline930/ghubli-films.git"
+  },
+  "author": "Jacqueline Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacqueline930/ghubli-films/issues"
+  },
+  "homepage": "https://github.com/Jacqueline930/ghubli-films#readme"
+}
