@@ -15,9 +15,15 @@ module.exports = {
         include : SRC_DIR,
         loader : 'babel-loader',
         query: {
-          presets: ['react', 'es2015']
+          presets: ['react', 'env']
        }
-      }
-    ]
-  }
+     },
+     {
+       test: /\.css$/,
+       exclude: /node_modules/,
+       include: SRC_DIR,
+       loaders: ['style-loader', 'css-loader', 'postcss-loader']
+     },
+   ]
+ }
 };
