@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: black
+  background-color: black;
   height: 70px;
   padding: 20px;
   color: white;
@@ -11,4 +11,8 @@
 
 .App-title {
   font-size: 1.5em;
+}
+
+.Search {
+  text-align: center;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import axios from "axios";
 import "./index.css"
-// import MovieSearch from "./MovieSearch.jsx";
+import MovieSearch from "./components/MovieSearch.jsx";
 
 class App extends React.Component {
   constructor(props){
@@ -11,13 +11,6 @@ class App extends React.Component {
       movieList: []
     }
   }
-
-  // getMovie () {
-  //   axios.get("https://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49")
-  //     .then((res) => {
-  //       console.log(res)
-  //     )}
-  // }
 
 
   render() {
@@ -28,13 +21,11 @@ class App extends React.Component {
             <h1 className= "App-title">Ghubli Films</h1>
           </header>
         </div>
-
+        <MovieSearch />
       </div>
     )
   }
 }
-
-
 
 
 
